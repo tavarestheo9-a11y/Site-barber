@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Premium | Experiência & Estilo Exclusivo</title>
+
+  <meta name="description" content="Barbearia premium especializada em cortes modernos, barba, pigmentação e estética masculina de alto padrão. Agende seu horário online.">
+  <meta property="og:title" content="Barbearia Premium | Experiência & Estilo Exclusivo">
+  <meta property="og:description" content="Atendimento exclusivo, profissionais renomados e ambiente sofisticado. Agende agora via WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1200">
+
+  <link rel="icon" href="https://img.icons8.com/color/48/scissors.png" type="image/png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>CARREGANDO EXPERIÊNCIA...</p>
+  </div>
+
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-follower"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <i class="ri-scissors-cut-line"></i> ROYAL BARBER
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
+          <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li class="nav__item"><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li class="nav__item"><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li class="nav__item"><a href="#equipe" class="nav__link">Equipe</a></li>
+          <li class="nav__item"><a href="#planos" class="nav__link">VIP</a></li>
+          <li class="nav__item"><a href="#agendamento" class="nav__link btn-nav">Agendar</a></li>
+        </ul>
+        <div class="nav__close" id="nav-close"><i class="ri-close-line"></i></div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-4-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content container fade-in-up">
+        <span class="hero__subtitle">Especialistas em Estilo Masculino</span>
+        <h1 class="hero__title">Mais que um corte,<br>uma experiência visual.</h1>
+        <p class="hero__description">Tradição, modernidade e excelência reunidas em um ambiente feito para homens que não se contentam com o comum.</p>
+        <div class="hero__buttons">
+          <a href="#agendamento" class="btn btn--primary">Agendar Horário <i class="ri-calendar-check-line"></i></a>
+          <a href="#servicos" class="btn btn--outline">Nossos Serviços <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre">
+      <div class="about__container grid">
+        <div class="about__img-wrapper reveal-left">
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800" alt="Interior da Barbearia" class="about__img" loading="lazy">
+          <div class="about__badge">
+            <span class="about__badge-number">10+</span>
+            <span class="about__badge-text">Anos de Tradição</span>
+          </div>
+        </div>
+        <div class="about__data reveal-right">
+          <h2 class="section__title">Sua Imagem É Sua Maior Assinatura</h2>
+          <p class="about__description">Fundada com o propósito de elevar a barbearia tradicional ao patamar de estética de luxo, a Royal Barber combina técnicas clássicas com tendências contemporâneas mundiais.</p>
+          
+          <div class="about__features">
+            <div class="about__feature-item">
+              <i class="ri-shield-star-line"></i>
+              <div>
+                <h4>Atendimento Exclusivo</h4>
+                <p>Ambiente climatizado, bebidas selecionadas e atenção aos mínimos detalhes.</p>
+              </div>
+            </div>
+            <div class="about__feature-item">
+              <i class="ri-award-line"></i>
+              <div>
+                <h4>Mestres Barbeiros</h4>
+                <p>Equipe constantemente capacitada nas principais academias internacionais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section">
+      <div class="stats__container container grid">
+        <div class="stats__card">
+          <h3 class="stats__number" data-target="15000">0</h3>
+          <p class="stats__title">Clientes Atendidos</p>
+        </div>
+        <div class="stats__card">
+          <h3 class="stats__number" data-target="10">0</h3>
+          <p class="stats__title">Anos de Mercado</p>
+        </div>
+        <div class="stats__card">
+          <h3 class="stats__number" data-target="28000">0</h3>
+          <p class="stats__title">Cortes Realizados</p>
+        </div>
+        <div class="stats__card">
+          <h3 class="stats__number" data-target="4.9">0</h3>
+          <p class="stats__title">Nota Média (Google)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="servicos">
+      <h2 class="section__title center">Nossos Serviços</h2>
+      <p class="section__subtitle center">Escolha o tratamento ideal para o seu estilo</p>
+
+      <div class="services__container grid">
+        <div class="service__card reveal-up">
+          <div class="service__img-box">
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=500" alt="Corte Masculino" loading="lazy">
+          </div>
+          <div class="service__content">
+            <i class="ri-scissors-2-line service__icon"></i>
+            <h3>Corte Executive</h3>
+            <p>Lavagem especial, diagnóstico do formato de rosto, corte de alta precisão e finalização.</p>
+            <div class="service__footer">
+              <span class="service__price">R$ 80</span>
+              <a href="#agendamento" class="btn-sm">Agendar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service__card reveal-up">
+          <div class="service__img-box">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=500" alt="Barba Terapia" loading="lazy">
+          </div>
+          <div class="service__content">
+            <i class="ri-user-smile-line service__icon"></i>
+            <h3>Barba Terapia</h3>
+            <p>Modelagem completa, toalha quente com óleos essenciais, massagem facial e hidratação.</p>
+            <div class="service__footer">
+              <span class="service__price">R$ 65</span>
+              <a href="#agendamento" class="btn-sm">Agendar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service__card reveal-up">
+          <div class="service__img-box">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=500" alt="Combo Cabelo + Barba" loading="lazy">
+          </div>
+          <div class="service__content">
+            <i class="ri-vip-crown-line service__icon"></i>
+            <h3>Combo Royal (Cabelo + Barba)</h3>
+            <p>A experiência completa. Corte VIP + Barba Terapia com direito a bebida cortesia.</p>
+            <div class="service__footer">
+              <span class="service__price">R$ 130</span>
+              <a href="#agendamento" class="btn-sm">Agendar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service__card reveal-up">
+          <div class="service__img-box">
+            <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=500" alt="Pigmentação" loading="lazy">
+          </div>
+          <div class="service__content">
+            <i class="ri-paint-brush-line service__icon"></i>
+            <h3>Pigmentação de Barba/Cabelo</h3>
+            <p>Disfarce de fios brancos e imperfeições mantendo o aspecto natural.</p>
+            <div class="service__footer">
+              <span class="service__price">R$ 50</span>
+              <a href="#agendamento" class="btn-sm">Agendar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="galeria">
+      <h2 class="section__title center">Galeria de Estilos</h2>
+      <p class="section__subtitle center">Confira alguns de nossos trabalhos recentes</p>
+
+      <div class="gallery__grid">
+        <div class="gallery__item" data-src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=1200">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=500" alt="Trabalho 1" loading="lazy">
+          <div class="gallery__overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+        <div class="gallery__item" data-src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1200">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=500" alt="Trabalho 2" loading="lazy">
+          <div class="gallery__overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+        <div class="gallery__item" data-src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=1200">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=500" alt="Trabalho 3" loading="lazy">
+          <div class="gallery__overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+        <div class="gallery__item" data-src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=1200">
+          <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=500" alt="Trabalho 4" loading="lazy">
+          <div class="gallery__overlay"><i class="ri-zoom-in-line"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+      <span class="lightbox__close" id="lightbox-close">&times;</span>
+      <img class="lightbox__img" id="lightbox-img" src="" alt="Ampliação">
+    </div>
+
+    <section class="section container" id="equipe">
+      <h2 class="section__title center">Mestres Barbeiros</h2>
+      <p class="section__subtitle center">Especialistas prontos para definir o seu melhor estilo</p>
+
+      <div class="team__grid grid">
+        <div class="team__card">
+          <div class="team__img-box">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500" alt="Barbeiro Carlos" loading="lazy">
+          </div>
+          <div class="team__info">
+            <h3>Carlos Silva</h3>
+            <span class="team__role">Master Barber & Founder</span>
+            <p>12 anos de experiência. Especialista em degradê e visagismo.</p>
+            <div class="team__socials">
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__card">
+          <div class="team__img-box">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=500" alt="Barbeira Lucas" loading="lazy">
+          </div>
+          <div class="team__info">
+            <h3>Lucas Mendes</h3>
+            <span class="team__role">Especialista em Barbas</span>
+            <p>8 anos cuidando da estética masculina e cortes clássicos tesoura.</p>
+            <div class="team__socials">
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="planos">
+      <h2 class="section__title center">Planos VIP Mensais</h2>
+      <p class="section__subtitle center">Mantenha seu visual impecável o mês inteiro por um valor fixo</p>
+
+      <div class="plans__grid grid">
+        <div class="plan__card">
+          <h3 class="plan__title">Clube Silver</h3>
+          <div class="plan__price">R$ 140<span>/mês</span></div>
+          <ul class="plan__features">
+            <li><i class="ri-check-line"></i> Cortes ilimitados no mês</li>
+            <li><i class="ri-check-line"></i> 10% OFF em produtos</li>
+            <li><i class="ri-check-line"></i> Agendamento prioritário</li>
+          </ul>
+          <a href="#agendamento" class="btn btn--outline full-width">Assinar Agora</a>
+        </div>
+
+        <div class="plan__card plan__card--featured">
+          <div class="plan__badge">Mais Vendido</div>
+          <h3 class="plan__title">Clube Black VIP</h3>
+          <div class="plan__price">R$ 230<span>/mês</span></div>
+          <ul class="plan__features">
+            <li><i class="ri-check-line"></i> Cabelo + Barba ilimitados</li>
+            <li><i class="ri-check-line"></i> Bebidas Premium liberadas</li>
+            <li><i class="ri-check-line"></i> 20% OFF em produtos</li>
+            <li><i class="ri-check-line"></i> Atendimento exclusivo sem fila</li>
+          </ul>
+          <a href="#agendamento" class="btn btn--primary full-width">Assinar Agora</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="agendamento">
+      <div class="booking__box">
+        <div class="booking__content">
+          <h2 class="section__title">Agende seu Horário</h2>
+          <p>Preencha os dados abaixo para ser redirecionado diretamente ao nosso WhatsApp de atendimento.</p>
+
+          <form id="booking-form" class="booking__form">
+            <div class="form__group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="form__group">
+              <label for="telefone">WhatsApp / Telefone</label>
+              <input type="tel" id="telefone" placeholder="(00) 00000-0000" required>
+            </div>
+
+            <div class="form__grid">
+              <div class="form__group">
+                <label for="servico">Serviço Desejado</label>
+                <select id="servico" required>
+                  <option value="">Selecione...</option>
+                  <option value="Corte Executive">Corte Executive (R$ 80)</option>
+                  <option value="Barba Terapia">Barba Terapia (R$ 65)</option>
+                  <option value="Combo Royal">Combo Royal (R$ 130)</option>
+                  <option value="Pigmentação">Pigmentação (R$ 50)</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label for="barbeiro">Barbeiro de Preferência</label>
+                <select id="barbeiro">
+                  <option value="Qualquer Profissional">Sem preferência</option>
+                  <option value="Carlos Silva">Carlos Silva</option>
+                  <option value="Lucas Mendes">Lucas Mendes</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form__grid">
+              <div class="form__group">
+                <label for="data">Data Pretendida</label>
+                <input type="date" id="data" required>
+              </div>
+
+              <div class="form__group">
+                <label for="horario">Horário Pretendido</label>
+                <input type="time" id="horario" required>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">
+              Confirmar via WhatsApp <i class="ri-whatsapp-line"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contato">
+      <div class="contact__grid grid">
+        <div class="contact__info">
+          <h2 class="section__title">Onde Estamos</h2>
+          <p>Venha nos visitar e tomar uma cerveja especial enquanto cuidamos do seu visual.</p>
+
+          <ul class="contact__list">
+            <li><i class="ri-map-pin-line"></i> Av. Paulista, 1000 - Bela Vista, São Paulo - SP</li>
+            <li><i class="ri-phone-line"></i> (11) 99999-8888</li>
+            <li><i class="ri-time-line"></i> Seg - Sáb: 09h às 20h</li>
+          </ul>
+        </div>
+
+        <div class="contact__map">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.097615211915!2d-46.6541!3d-23.5647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzUyLjkiUyA0NsKwMzknMTQuOCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" 
+            width="100%" height="300" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo"><i class="ri-scissors-cut-line"></i> ROYAL BARBER</a>
+        <p>O topo da estética masculina com requinte e sofisticação.</p>
+      </div>
+
+      <div class="footer__socials">
+        <a href="#" class="footer__social"><i class="ri-instagram-line"></i></a>
+        <a href="#" class="footer__social"><i class="ri-facebook-fill"></i></a>
+        <a href="#" class="footer__social"><i class="ri-whatsapp-line"></i></a>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <p>&copy; 2026 Royal Barber Shop. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511999998888" target="_blank" class="whatsapp-float" aria-label="Contato via WhatsApp">
+    <i class="ri-whatsapp-line"></i>
+  </a>
+
+  <a href="#" class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+        </html>
